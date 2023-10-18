@@ -1,4 +1,4 @@
-@import'_normalize'; 
+@import'vendor/_normalize.scss'; 
 
 body {
     background-color: #fff236;
@@ -48,6 +48,7 @@ body {
     justify-content: space-evenly;
     text-align: center;
   }
+
   button {
     width: 35px;
     height: 35px;
@@ -68,6 +69,7 @@ body {
       border-radius: 4px;
       margin-bottom: 4px;
   }
+
   input {
     position: fixed;
     right: 20px;
@@ -76,9 +78,8 @@ body {
     width: 35px;
     height: 35px;
     opacity: 0;
-    
-
   }
+
   input:checked + .menu button span {
     position: absolute;
     transition: all 0.3s ease-in-out;
@@ -118,13 +119,30 @@ body {
   }
   .drizzle {
     color: #aa75ff;
-  }
+    font-size: 1.5rem;
+    position: absolute;
+    top: 2dvh;
+    left: 10dvh;
+    z-index: 3;
+    
+}
   .tahini {
     color: #00ff38;
+    font-size: 3rem;
+    position: absolute;
+    top: 3.5dvh;
+    left: 3.8dvh;
+    z-index: 2;
+    
   
   }
   .chickpeas {
     color: #fff236;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 9dvh;
+    left: 3.8dvh;
+    z-index: 1;
   
   }
   
