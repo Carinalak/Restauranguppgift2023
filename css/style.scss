@@ -1,4 +1,7 @@
-body {background-color: #fff236;
+/*@use'_normalize'; */
+
+body {
+  background-color: #fff236;
   font-family: 'Jockey One', sans-serif;
 }
 h1 {
@@ -6,17 +9,28 @@ h1 {
 }
 nav {
   position: fixed;
-    background-color: #000000;
+  top: 0;
+  left: 0;
+  /* Gamla menyn
+  background-color: #000000;
     color: #ffffff;
     padding: 2px;
     border: 1px solid white;
-    width: 400px;
+    width: 400px;*/
     background-color: rgba(227, 45, 218, 0.5);
     width: 100vw;
     height: 100vh;
-    
+    opacity: 0; 
+    transition: opacity 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+    visibility: hidden;
 }
-.menysnutt {
+
+input:checked + .menu nav {
+  visibility: visible;
+  opacity: 1;
+
+}
+.menu {
   display: flex;
   flex-direction: row;
 
@@ -46,17 +60,17 @@ button span {
     border-radius: 4px;
     margin-bottom: 4px;
 }
-input:checked + button span {
+input:checked + .menu button span {
   position: absolute;
   transition: all 0.3s ease-in-out;
 }
-input:checked + button span:nth-child(2) {
+input:checked + .menu button span:nth-child(2) {
   opacity: 0;
 }
-input:checked + button span:nth-child(1){
+input:checked + .menu button span:nth-child(1){
   transform: rotate(45deg);
 }
-input:checked + button span:nth-child(3){
+input:checked + .menu button span:nth-child(3){
   transform: rotate(-45deg);
 }
 
