@@ -1,4 +1,4 @@
-/*@import '_normalize'; */
+@import 'vendor/_normalize';
 
 body {background-color: #fff236;
     font-family: 'Jockey One', sans-serif;
