@@ -1,68 +1,117 @@
 @import "vendor/normalize";
 @import "button";
 
+
 body {
   background-color: #fff236;
+  color: #00ff38;
   font-family: 'Jockey One', sans-serif;
 }
 
 h1 {
   font-family: 'Jockey One', sans-serif;
-  position: absolute;
+  position: fixed;
   top: 0;
-  left: 150px;
-}
-
-.page1{
-  color: #00ff38;
-  background-color: #000000;
-  padding: 10px;
-  width: 400px;
-  border: 1px solid white;
-
-}
-.textbox1 {
-
-  width: 400px;
-  padding: 2px;
-  border: 1px solid white;
-}
-.textbox2 {
-  background-color: #ffffff;
-  border: 5px solid #fff236;
-  color: #000000;
-  padding: 3px;
-} 
-img {
-  border: 1px solid white;
+  left: 130px;
 }
 
 .drizzle {
   color: #aa75ff;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   position: absolute;
-  top: 2dvh;
-  left: 10dvh;
+  top: 2px;
+  right: 5px;
   z-index: 3;
-  
 }
+
 .tahini {
   color: #00ff38;
-  font-size: 3rem;
+  font-size: 2.5rem;
   position: absolute;
-  top: 30%;
-  transform: translateY(-30%);
+  top: 11px;
+  right: 5px;
   z-index: 2;
-  
+   /* transform: translateY(-30%);*/
 
 }
 .chickpeas {
   color: #fff236;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   position: absolute;
-  top: 9dvh;
-  left: 3.8dvh;
+  top: 32px;
+  right: 9px;
   z-index: 1;
 
 }
+
+ 
+.page1{
+ background-color: #000000;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid white;
+  display: grid;
+  gap: 0.2rem;
+}
+
+.menybox {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  height: 40px;
+  background-color: #000000;
+}
+
+.drizzletext {
+  position: relative;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  height: 50px;
+  width: 300px;
+  border: white;
+}
+
+.textbox1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  padding: 5px;
+  width: 300px;
+  border: 1px solid white;
+
+}
+
+.salladsbild {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  width: 300px;
+  border:  1px solid white;
+}
+
+.textbox2 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  padding: 2px;
+  width: 300px;
+  color: #aa75ff;
+  background-color: #ffffff;
+  border-left: 4px solid #fff236;
+
+}
+img {
+  border 1px solid white;
+}
+
+
 
