@@ -10,9 +10,14 @@ body {
 
 h1 {
   font-family: 'Jockey One', sans-serif;
-  position: fixed;
+  font-weight: lighter;
+  position: absolute;
   top: 0;
-  left: 130px;
+  left: 90px;
+  padding: 0px;
+  margin-top: 12px;
+  
+ 
 }
 
 .drizzle {
@@ -43,7 +48,6 @@ h1 {
   z-index: 1;
 
 }
-
  
 .page1{
  background-color: #000000;
@@ -61,6 +65,11 @@ h1 {
   grid-row-end: 2;
   height: 40px;
   background-color: #000000;
+  position: fixed;
+  width: 400px;
+  padding-bottom: 8px;
+    
+  
 }
 
 .drizzletext {
@@ -72,6 +81,8 @@ h1 {
   height: 50px;
   width: 300px;
   border: white;
+  padding: 5px;
+  margin-top: 30px;
 }
 
 .textbox1 {
@@ -102,16 +113,25 @@ h1 {
   grid-column-end: 3;
   grid-row-start: 6;
   grid-row-end: 7;
-  padding: 2px;
+  padding: 5px;
   width: 300px;
   color: #aa75ff;
   background-color: #ffffff;
   border-left: 4px solid #fff236;
+  border-right: 4px solid #fff236;
+  border-bottom: 0px;
+  border-top: 0px;
+}
+.explore {
+  font-family: 'roboto condensed';
+  color: #000000;
+  font-weight: bold;
+  padding-top: 4px;
+  width: 300px;
+  text-align: end;
+}
 
-}
-img {
-  border 1px solid white;
-}
+
 
 
 

@@ -1,6 +1,6 @@
 
 nav {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   font-size: large;
@@ -12,15 +12,18 @@ nav {
   transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
   visibility: hidden;
 }
+
 input:checked + .menu nav {
   visibility: visible;
   opacity: 1;
 
 }
 .menu {
+  
   display: flex;
   flex-direction: row;
-  background-color: #000000;
+  
+  
 
 }
 ul {
@@ -40,7 +43,7 @@ button {
   height: 35px;
   background: transparent;
   border: 0;
-  position: fixed;
+  position: absolute;
   left: 20px;
   top: 15px;
   z-index: 2;
@@ -64,6 +67,7 @@ input {
   width: 35px;
   height: 35px;
   opacity: 0;
+  
 }
 
 input:checked + .menu button span {
