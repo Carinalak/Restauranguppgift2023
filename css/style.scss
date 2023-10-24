@@ -9,6 +9,7 @@ body {
   font-size: 1.2rem;
 }
 
+
 h1 {
   font-family: 'Jockey One', sans-serif;
   color: #ffffff;
@@ -50,7 +51,7 @@ h1 {
 }
  
 .page1{
- background-color: #000000;
+  background-color: #000000;
   padding: 10px;
   width: 100%;
   border: 1px solid white;
@@ -130,10 +131,53 @@ h1 {
   text-align: end;
   
 }
+/* ----------------------------- PAGE 2 -------------------------------*/
 
 .foodmenu {
-  color: #000000 ;
+  color: #000000;
+  display: grid;
+  row-gap: 4px;
+
+  
+}
+
+.foodname {
+  display: grid;
+  row-gap: 20px;
   background-color: #ffffff;
+  border: 2px solid #000000;
+  padding: 3px;
+  
+}
+.mat1 {
+  font-size: 1.1rem;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+ 
+
+  
+}
+.food-description {
+  font-size: 1rem;
+  font-family:'roboto condensed', 'sans-serif';
+  border: 1px solid red;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  position: absolute;
+  left: 25%;
+  
+}
+.mat2 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  position: absolute;
+  left: 90%;
 }
 
 
@@ -142,7 +186,6 @@ h1 {
     
   }
   .page1 {
-    display: grid;
     gap: 16px;
   }
 
