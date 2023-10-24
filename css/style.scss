@@ -6,6 +6,7 @@ body {
   background-color: #fff236;
   color: #00ff38;
   font-family: 'Jockey One', sans-serif;
+  font-size: 1.2rem;
 }
 
 h1 {
@@ -111,10 +112,11 @@ h1 {
   grid-row-end: 7;
   padding: 5px;
   width: 300px;
+ 
   color: #aa75ff;
   background-color: #ffffff;
-  border-left: 4px solid #fff236;
-  border-right: 4px solid #fff236;
+  border-left: 5px solid #fff236;
+  border-right: 5px solid #fff236;
   border-bottom: 0px;
   border-top: 0px;
 }
@@ -126,9 +128,17 @@ h1 {
   padding-top: 4px;
   width: 300px;
   text-align: end;
+  
 }
 
 @media screen and (min-width: 640px) {
+  main {
+    
+  }
+  .page1 {
+    display: grid;
+    gap: 16px;
+  }
 
      .menybox {
       width: 35px;
@@ -138,6 +148,7 @@ h1 {
       position: fixed;
       left: 0px; 
       padding: 1px;   
+
     }
 
     h1 {
@@ -155,21 +166,21 @@ h1 {
     left: 0px;
     width: 10px;
   }
-  .page1 {
-   
   
-  }
   .drizzletext {
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
+    width: 100px;
+   
   }
   .textbox1 {
     grid-column-start: 4;
     grid-column-end: 7;
     grid-row-start: 1;
     grid-row-end: 2;
+    padding: 20px;
   }
   .salladsbild {
     grid-column-start: 1;
@@ -182,7 +193,18 @@ h1 {
     grid-column-end: 7;
     grid-row-start: 2;
     grid-row-end: 3;
+    height: 150px;
+    width: 250px;
+    padding: 20px;
   }
+}
+.explore {
+  border: 1px solid red;
+  position: relative;
+  top: 50px;
+  width: 250px;
+  
+
 }
 
 
