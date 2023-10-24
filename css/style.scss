@@ -51,6 +51,9 @@ h1 {
 }
  
 .page1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   background-color: #000000;
   padding: 10px;
   width: 100%;
@@ -137,8 +140,6 @@ h1 {
   color: #000000;
   display: grid;
   row-gap: 4px;
-
-  
 }
 
 .foodname {
@@ -155,14 +156,12 @@ h1 {
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 2;
- 
 
   
 }
 .food-description {
   font-size: 1rem;
   font-family:'roboto condensed', 'sans-serif';
-  border: 1px solid red;
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 1;
@@ -179,7 +178,13 @@ h1 {
   position: absolute;
   left: 90%;
 }
+.matbilder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 
+  gap: 5px;
+}
 
 @media screen and (min-width: 640px) {
   main {
