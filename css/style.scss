@@ -270,7 +270,10 @@ body {
   padding-right: 30px;
 }
 .linkimage {
-  backdrop-filter: blur(50px);
+  filter: blur(0.2rem);
+  padding-top: 10px;
+  position: relative;
+  text-align: center;
 }
 
 
