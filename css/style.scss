@@ -208,7 +208,36 @@ body {
 
 }
 
+/* ----------------------------- PAGE 2 -------------------------------*/
 
+.booking {
+  display: grid;
+  gap: 50px;
+  margin-left: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: 1px solid red;
+  width: 250px;
+
+}
+.b1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  position: relative;
+  left: 10px;
+}
+.b2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  width: 150px;
+  position: relative;
+  left: 50px;
+}
 
 
 
