@@ -210,16 +210,20 @@ body {
 
 /* ----------------------------- PAGE 2 -------------------------------*/
 
-.booking {
+.bookingform {
   display: grid;
-  gap: 50px;
+  gap: 20px;
   margin-left: 16px;
-  display: flex;
+  /*display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-evenly;*/
   border: 1px solid red;
-  width: 250px;
+  width: 300px;
+  
 
+}
+.booking {
+  position: relative;
 }
 .b1 {
   grid-column-start: 1;
@@ -228,6 +232,8 @@ body {
   grid-row-end: 2;
   position: relative;
   left: 10px;
+  
+
 }
 .b2 {
   grid-column-start: 2;
@@ -235,8 +241,9 @@ body {
   grid-row-start: 1;
   grid-row-end: 2;
   width: 150px;
-  position: relative;
-  left: 50px;
+  height: 18px;
+  position: absolute;
+  right: 20px;
 }
 
 
