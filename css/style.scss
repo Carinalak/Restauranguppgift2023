@@ -19,6 +19,7 @@ body {
   left: 90px;
   padding: 0px;
   margin-top: 12px;
+  text-transform: uppercase;
 }
 
 .drizzle {
@@ -208,6 +209,7 @@ body {
   color: #000000;
   display: flex;
   justify-content: center;
+  text-transform: uppercase;
 
 }
 .bookingtitle {
@@ -234,6 +236,7 @@ body {
   grid-row-end: 2;
   position: relative;
   left: 0px;
+  text-transform: uppercase;
 
 }
 .b2 {
@@ -246,7 +249,9 @@ body {
   position: absolute;
   right: 0px;
   border-radius: 10px;
+  font-size: 1.3rem;
 }
+
 .formbuttons {
   display: flex;
   flex-direction: row;
@@ -301,8 +306,6 @@ body {
   z-index: 3;
   
 }
-
-
 
 
 /* ----------------------------- TABLET-DESIGN -------------------------------*/
