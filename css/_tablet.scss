@@ -1,0 +1,84 @@
+
+/* ----------------------------- TABLET-DESIGN -------------------------------*/
+@media screen and (min-width: 640px) {
+
+    .page1 {
+      gap: 16px;
+      border-left: 16px solid #fff236;
+      border-right: 16px solid #fff236;
+    }
+  
+       header {
+        width: 35px;
+        height: 100vh;
+        text-align: center;
+        align-items: left;
+        position: fixed;
+        left: 0px; 
+        padding: 1px;   
+        border: 1px solid pink;
+  
+      }
+  
+      .menutitle {
+      top: 50px;
+      left: 12px;
+      max-width: 30px;
+      word-break: break-all;
+      text-align: center;
+      span.desktop-tablet {
+        display: block;
+      }
+     /* height: 200px;
+      border: 1px solid red;
+      display: flex;
+      flex-direction: row;*/
+    }
+    button {
+      left: 5px;
+      top: 5px;
+    }
+    .menu {
+      left: 0px;
+      width: 10px;
+    }
+    
+    .drizzletext {
+      grid-column-start: 1;
+      grid-column-end: 4;
+      grid-row-start: 1;
+      grid-row-end: 2;
+      width: 100px;
+     
+    }
+    .textbox1 {
+      grid-column-start: 4;
+      grid-column-end: 7;
+      grid-row-start: 1;
+      grid-row-end: 2;
+      padding: 20px;
+    }
+    .lettucepic {
+      grid-column-start: 1;
+      grid-column-end: 4;
+      grid-row-start: 2;
+      grid-row-end: 3;
+    }
+    .textbox2 {
+      grid-column-start: 4;
+      grid-column-end: 7;
+      grid-row-start: 2;
+      grid-row-end: 3;
+      height: 150px;
+      width: 250px;
+      padding: 20px;
+    }
+  
+  .explore {
+    border: 1px solid red;
+    position: relative;
+    top: 50px;
+    width: 250px;
+    text-align: start;
+    }
+  }

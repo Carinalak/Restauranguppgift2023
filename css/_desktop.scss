@@ -1,0 +1,17 @@
+@media screen and (min-width: 800px){
+    header {
+        background-color: orange;
+        width: 8.3vw;
+        position:fixed;
+        height: 100vh;
+    }
+
+    .page-content {
+        margin-left: 8.3vw;
+    }
+
+    .page {
+        min-height: 100vh;
+        outline: 5px solid red;
+    }
+}

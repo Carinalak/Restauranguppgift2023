@@ -12,14 +12,22 @@
 </head>
 <body>
   <main>  
-  
-    <section class="menubox">
+    <header>
       <article>
-       <h1 class="menutitle"> tough cookie </h1>
+       
         <input class="checked" type="checkbox">
-          <div class="menu">  
-            
-            <button>
+          <div class="menu">   
+            <button aria-label="Close" onclick="myDialog.close()">
+              <svg
+              aria-hidden="true"
+              focusable="false"
+              width="17"
+              height="17"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="m.967 14.217 5.8-5.906-5.765-5.89L3.094.26l5.783 5.888L14.66.26l2.092 2.162-5.766 5.889 5.801 5.906-2.092 2.162-5.818-5.924-5.818 5.924-2.092-2.162Z"
+                fill="#000" />
+            </svg>
               <span></span>
               <span></span>
               <span></span>
@@ -32,9 +40,13 @@
               </ul>
             </nav>
           </div>
+          <h1 class="menutitle"> Tough<span class="desktop-tablet">&nbsp;</span>Cookie </h1>
       </article>
-      </section> 
-      <section class="page1">
+    </header> 
+
+
+<div class="page-content">
+      <section class="page page1">
         <article class="drizzletext">
           <div class="drizzle">Drizzle</div>
           <div class="tahini">Tahini</div>
@@ -69,7 +81,7 @@
 ----------------------------------------------------------------------------------------------------------------------------------->
 
 
-    <section class="page2">
+    <section class="page page2">
       <article>
         <figure class="foodpics">
           <div> <img src="img/edgar-castrejon.jpg" width="124" height="155" loading="lazy" title="" alt=""></div>
@@ -78,39 +90,39 @@
       </article>
       <article class="foodmenu">
         <div class="foodname">
-            <div class="food1">Halloumi Moklieh</div>
+            <div class="dish">Halloumi Moklieh</div>
             <div class="food-description">Deep fried halloumi</div>
-            <div class="food2">195 kr</div>
+            <div class="price">195 kr</div>
         </div>
         <div class="foodname">
-          <div class="food1">Mojaddara</div>
+          <div class="dish">Mojaddara</div>
           <div class="food-description">Green lentis with rice and fried onion</div>
-          <div class="food2">135 kr</div>
+          <div class="price">135 kr</div>
         </div>
         <div class="foodname">
-          <div class="food1">Chiar & Laban</div>
+          <div class="dish">Chiar & Laban</div>
           <div class="food-description">Lebanese spicy yoghurt with chopped cucumber</div>
-          <div class="food2">95 kr</div>
+          <div class="price">95 kr</div>
         </div>
         <div class="foodname">
-          <div class="food1">Warak Inab</div>
+          <div class="dish">Warak Inab</div>
           <div class="food-description">Rice- and veggie-filled dolma with mint and lemon</div>
-          <div class="food2">85 kr</div>
+          <div class="price">85 kr</div>
         </div>
         <div class="foodname">
-          <div class="food1">Moutabbal Batinzian</div>
+          <div class="dish">Moutabbal Batinzian</div>
           <div class="food-description">Smoked chopped aubergine, sesame paste, garlic and lemon</div>
-          <div class="food2">175 kr</div>
+          <div class="price">175 kr</div>
         </div>
         <div class="foodname">
-          <div class="food1">Ardishoki</div>
+          <div class="dish">Ardishoki</div>
           <div class="food-description">Artichoke with lemon and garlic marinade</div>
-          <div class="food2">99 kr</div>
+          <div class="price">99 kr</div>
         </div>
         <div class="foodname">
-          <div class="food1">Mhamara</div>
+          <div class="dish">Mhamara</div>
           <div class="food-description">Spicy bell pepper relish with crushed walnuts and pomegranate syrup</div>
-          <div class="food2">123 kr</div>
+          <div class="price">123 kr</div>
         </div>
       </article>
       <article>
@@ -126,7 +138,7 @@
 -------------------------------------------------- SIDA 3 -------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------->
 
-    <section class="page3">
+    <section class="page page3">
       <article>
     
 
@@ -185,7 +197,7 @@
 
 
     </section>
-
+  </div>
 
 
 
