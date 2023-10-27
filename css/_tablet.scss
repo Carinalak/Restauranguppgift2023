@@ -2,24 +2,40 @@
 /* ----------------------------- TABLET-DESIGN -------------------------------*/
 @media screen and (min-width: 640px) {
 
-    .page1 {
-      gap: 16px;
+    .page1 .page2 {
+      /*gap: 16px;*/
       border-left: 16px solid #fff236;
       border-right: 16px solid #fff236;
     }
+    .page3 {
+      border-left: 16px solid #ffffff;
+      border-right: 16px solid #ffffff;
+    }
+    .page-content {
+     margin-left: 8.3vw;
+  
+  }
+  .page1 {
+    display: grid;
+    grid-template-columns: repeat(11. 1fr);
+    gap: 16px;
+  }
   
        header {
-        width: 35px;
-        height: 100vh;
         text-align: center;
         align-items: left;
-        position: fixed;
         left: 0px; 
         padding: 1px;   
-        border: 1px solid pink;
+        background-color: blue;
+        width: 8.3vw;
+        position:fixed;
+        height: 100vh;
   
       }
-  
+      .page {
+        min-height: 100vh;
+        outline: 5px solid red;
+    }
       .menutitle {
       top: 50px;
       left: 12px;
@@ -27,7 +43,7 @@
       word-break: break-all;
       text-align: center;
       span.desktop-tablet {
-        display: block;
+      display: block;
       }
      /* height: 200px;
       border: 1px solid red;
@@ -44,35 +60,42 @@
     }
     
     .drizzletext {
-      grid-column-start: 1;
+      grid-column: 1 / span 4;
+
+     /* grid-column-start: 1;
       grid-column-end: 4;
       grid-row-start: 1;
       grid-row-end: 2;
-      width: 100px;
+      width: 100px;*/
      
     }
     .textbox1 {
-      grid-column-start: 4;
+      grid-column: 5 / span 7;
+      /*grid-column-start: 4;
       grid-column-end: 7;
       grid-row-start: 1;
       grid-row-end: 2;
-      padding: 20px;
+      padding: 20px;*/
     }
     .lettucepic {
-      grid-column-start: 1;
+      grid-column: 1 / span 5;
+      /*grid-column-start: 1;
       grid-column-end: 4;
       grid-row-start: 2;
-      grid-row-end: 3;
+      grid-row-end: 3;*/
     }
     .textbox2 {
-      grid-column-start: 4;
+      grid-column: 6 / span 6;
+      /*grid-column-start: 4;
       grid-column-end: 7;
       grid-row-start: 2;
       grid-row-end: 3;
       height: 150px;
       width: 250px;
-      padding: 20px;
+      padding: 20px;*/
     }
+
+
   
   .explore {
     border: 1px solid red;
@@ -81,4 +104,5 @@
     width: 250px;
     text-align: start;
     }
+  
   }
