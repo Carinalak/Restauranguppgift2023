@@ -97,9 +97,9 @@ body {
     background-image: url('../img/lettuce.jpg');
     background-size: cover;
     background-position: center;
-    width: 200;
-    height:160;
-  
+    width: 300px;
+    height: 240px;
+    padding: 10px;
 
     /*
     display: flex;
@@ -108,6 +108,7 @@ body {
     width: 300px;
     border:  1px solid white;*/
   }
+  
   
   .textbox2 {
     grid-column-start: 1;
@@ -122,6 +123,10 @@ body {
     border-right: 5px solid #fff236;
     border-bottom: 0px;
     border-top: 0px;
+  }
+  a {
+    text-decoration: none;
+    color: #000000;
   }
   
   .explore {
@@ -293,18 +298,17 @@ body {
     
   }
   
-  
-  /*----------ÅÅÅH! varför syns inte texten över bilden, Jenni????-----------*/
-  
-  .contact-info .imagetext {
+  .contact-info .image-text {
+    color: lightblue;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 3rem;
-    z-index: 3;
-    
+    font-size: 2rem;
+    text-transform: none;
   }
+
+
   .cookies {
     color: #ffffff;
     font-weight: lighter;
