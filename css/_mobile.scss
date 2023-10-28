@@ -87,16 +87,26 @@ body {
     width: 300px;
     border: 1px solid white;
   }
+
+
   .lettucepic {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 5;
     grid-row-end: 6;
+    background-image: url('../img/lettuce.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 200;
+    height:160;
+  
+
+    /*
     display: flex;
     justify-content: center;
     padding: 5px;
     width: 300px;
-    border:  1px solid white;
+    border:  1px solid white;*/
   }
   
   .textbox2 {

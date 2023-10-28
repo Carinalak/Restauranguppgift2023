@@ -15,5 +15,20 @@
         min-height: 100vh;
         outline: 5px solid red;
     }
-    
+    .lettucepic {
+        position: relative;
+        &:hover {
+            .arrow {
+                bottom: 16px;
+
+            }
+        }
+        .arrow {
+            transform: rotate(90deg);
+            position: absolute;
+            bottom: 8px;
+            left:8px;
+            transition: bottom 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+        }
+    }
 }
