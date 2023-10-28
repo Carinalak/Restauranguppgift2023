@@ -184,18 +184,41 @@ body {
     left: 30%;
     width: 55%;
     padding-left: 6px;
-    
-    
   }
-  
   .price {
     grid-column: 4 / span 1;
     grid-row: 1 / span 1;
-    
     position: absolute;
     left: 89%;
     padding-right: 6px;
-  
+  }
+  .menu-item-popular,
+  .menu-item-vegan {
+    
+    font-family: 'courier new', courier, monospace;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    height: 13px;
+
+  }
+
+
+  .menu-item-popular {
+    background-color: #fff236;
+    padding: 1px 5px;
+    display: inline-block;
+  }
+  .menu-item-vegan {
+    background-color: #00ff38;
+    padding: 0 5px;
+    transform: rotate(-5deg);
+    
+    margin-block: 15px;
+    span {
+      display: block;
+      transform: rotate(3deg);
+    }
+
   }
   .foodpics {
     display: flex;
@@ -299,19 +322,20 @@ body {
   }
   
   .contact-info .image-text {
-    color: lightblue;
+    color: rgb(67, 190, 231);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 2rem;
     text-transform: none;
+    text-shadow: #000000 2px 2px;
+    width: 300px;
   }
 
 
   .cookies {
     color: #ffffff;
-    font-weight: lighter;
     font-size: 1rem;
     text-transform: none;
     background-color: #aa75ff;
