@@ -15,9 +15,9 @@
   <main>  
     <header>
       <section>
-        <input class="checked" type="checkbox">
+        <input class="hamburger" type="checkbox">
           <div class="menu">   
-            <button aria-label="Close" onclick="myDialog.close()">
+            <!--<button aria-label="Close" onclick="myDialog.close()">
               <svg
               aria-hidden="true"
               focusable="false"
@@ -27,13 +27,14 @@
               <path
                 d="m.967 14.217 5.8-5.906-5.765-5.89L3.094.26l5.783 5.888L14.66.26l2.092 2.162-5.766 5.889 5.801 5.906-2.092 2.162-5.818-5.924-5.818 5.924-2.092-2.162Z"
                 fill="#000" />
-            </svg>
+            </svg>-->
+            <button>
               <span></span>
               <span></span>
               <span></span>
             </button>
             <nav>
-              <ul>
+              <ul class="hamburger-menu">
                 <li>home</li>
                 <li>menu</li>
                 <li>book table</li>
@@ -144,33 +145,33 @@
           <form class="bookingform">
             <div><h2>Book your table</h2></div>
               <label class="booking">
-                <span class="b1">Name</span>
-                <input class="b2" type="text" name="name" placeholder="Name">
+                <span class="book1">Name</span>
+                <input class="book2" type="text" name="name" placeholder="Name">
               </label>
 
               <label class="booking">
-                <span class="b1">Email</span>
-                <input class="b2" type="email" name="email" placeholder="name@name.com">
+                <span class="book1">Email</span>
+                <input class="book2" type="email" name="email" placeholder="name@name.com">
               </label>
 
               <label class="booking">
-                <span class="b1">Phone</span>
-                <input class="b2" type="tel" name="phone" placeholder="+467" >
+                <span class="book1">Phone</span>
+                <input class="book2" type="tel" name="phone" placeholder="+467" >
               </label>
 
               <label class="booking">
-                <span class="b1">Date</span>
-                <input class="b2" type="date" name="date" placeholder="Date">
+                <span class="book1">Date</span>
+                <input class="book2" type="date" name="date" placeholder="Date">
               </label>
 
             <label class="booking">
-              <span class="b1">Partysize</span>
-              <input class="b2" type="text" name="partysize" placeholder="Partysize">
+              <span class="book1">Partysize</span>
+              <input class="book2" type="text" name="partysize" placeholder="Partysize">
             </label>
 
             <label class="booking">
-              <span class="b1">Allergies</span>
-              <input class="b2" type="text" name="allergies" placeholder="Allergies">
+              <span class="book1">Allergies</span>
+              <input class="book2" type="text" name="allergies" placeholder="Allergies">
             </label>
             <label class="formbuttons">
               <input class="cancel-button" type="reset" value="CANCEL">
@@ -181,21 +182,23 @@
           <div class="contact-info">
             <div class="bg-image"></div>
             <div class="image-text">
-              <span class="material-symbols-outlined">
-                phone_enabled
-                </span>   
-                +46 8 123 45 67<br>
 
-                <span class="material-symbols-outlined">
-                alternate_email
-                </span>
-                book@toughcookie.com<br>
+              <div class="contact-phone1">
+                <span class="material-symbols-outlined">phone_enabled</span>
+              </div>
+              <div class="contact-phone2">+46 8 123 45 67</div>
 
-                <span class="material-symbols-outlined">
-                location_on
-                </span>Brända Tomten<br>
-                111 31 Stockholm
-          </div>  
+              <div class="contact-mail1">
+                <span class="material-symbols-outlined">alternate_email</span>
+              </div>
+              <div class="contact-mail2">book@toughcookie.com</div>
+
+              <div class="contact-address1a">
+                <span class="material-symbols-outlined">location_on</span>
+              </div>
+              <div class="contact-address1b">Brända Tomten</div>
+              <div class="contact-address2">111 31 Stockholm</div> 
+            </div>
 
           <div class="cookies">
             <div>You should accept cookies.</div>

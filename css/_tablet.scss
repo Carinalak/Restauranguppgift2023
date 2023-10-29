@@ -10,7 +10,6 @@
     /*align-items: left;*/
     left: 0px; 
     padding: 1px;   
-    background-color: blue;
     width: 8.3vw;
     position:fixed;
     height: 100vh;
@@ -28,15 +27,8 @@
       span.desktop-only {
         display: block;
       }
-   /* height: 200px;
-    border: 1px solid red;
-    display: flex;
-    flex-direction: row;*/
   }
-  button {
-    left: 5px;
-    top: 5px;
-  }
+ 
   .menu {
     left: 0px;
     width: 10px;

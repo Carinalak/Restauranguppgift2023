@@ -1,8 +1,83 @@
 @import "vendor/normalize";
-@import "button";
+/*@import "button";*/
 @import "mobile";
 @import "tablet";
 @import "desktop";
 
-
+button {
+    width: 35px;
+    height: 35px;
+    top: 8px;
+    left: 8px;
+    background: transparent;
+    border: 0;
+    position: fixed;
+    z-index: 3;
+    pointer-events: none;
+}
+button span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #fff236;
+    border-radius: 6px;
+    margin-bottom: 4px; 
+}
+.hamburger {
+    position: fixed;
+    width: 35px;
+    height: 35px;
+    top: 8px;
+    left: 8px;
+    z-index: 2;
+    opacity: 0;
+}
+input:checked + .menu button span {
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+}
+input:checked + .menu button span:nth-child(2) {
+    opacity: 0;
+}
+input:checked + .menu button span:nth-child(1) {
+    transform: rotate(45deg);
+}
+input:checked + .menu button span:nth-child(3) {
+    transform: rotate(-45deg);
+}
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(227, 45, 218, 0.8);
+    width: 100vw;
+    height: 100vh;
+    visibility: hidden;
+    opacity: 0; 
+    transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+    color: #ffffff;
+    font-size: 2.1rem;
+    text-transform: uppercase;
+    z-index: 1;
+}
+.hamburger-menu {
+    position: absolute;
+    top: 100px;
+}
+input:checked + .menu nav {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 100vw;
+    justify-content: space-evenly;
+    text-align: center;
+  }
 
