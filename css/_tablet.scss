@@ -82,10 +82,12 @@
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 3;*/
+    .arrow {
+      visibility: visible;
+  }
    
   }
   .lettuce {
-  
     width: 300;
     height: 240;
   }
@@ -115,7 +117,6 @@
 
 
 .page2 {
-  /*gap: 16px;*/
   border-left: 16px solid #fff236;
   border-right: 16px solid #fff236;
   display: grid;
