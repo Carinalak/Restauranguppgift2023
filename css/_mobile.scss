@@ -102,7 +102,7 @@ body {
     width: 300px;
     height: 240px;
     padding: 10px;
-    border: 1px solid red;
+    
     /*
     display: flex;
     justify-content: center;
@@ -115,22 +115,21 @@ body {
       position: absolute;
       bottom: 0px;
       left: 30px;
-      border: 1px solid blue;
       width: 30px;
       transition: bottom 0.3s cubic-bezier(0.075, 0.82, 0.165, 1); 
   }
   }
-  
- 
-  
   
   .textbox2 {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 6;
     grid-row-end: 7;
-    padding: 5px;
+    padding: 8px;
     width: 300px;
+    z-index: 1;
+    
+
     color: #aa75ff;
     background-color: #ffffff;
     border-left: 5px solid #fff236;
@@ -153,13 +152,15 @@ body {
     
   }
   /* ----------------------------- PAGE 2 -------------------------------*/
-  
+  .page2 {
+    background-color: #fff236;
+  }
   .foodmenu {
     color: #000000;
     display: grid;
     row-gap: 4px;
-    
     margin-right: 16px;
+  
   }
   .img3a {
     display: none;
@@ -169,7 +170,6 @@ body {
     grid-template-columns:repeat(4, 1fr);
     row-gap: 20px;
     margin-left: 16px;
-    
     background-color: #ffffff;
     border: 2px solid #000000;
     padding: 3px;
@@ -206,15 +206,11 @@ body {
   .menu-item-popular,
   .menu-item-vegan,
   .menu-item-new {
-    
     font-family: 'courier new', courier, monospace;
     text-transform: uppercase;
     font-size: 0.9rem;
     height: 13px;
     position: relative;
-    
-  
-
   }
   .menu-item-new {
     background-color: #aa75ff;
@@ -244,8 +240,6 @@ body {
       transform: rotate(3deg);
     }
   }
-  
-
   .foodpics {
     display: flex;
     flex-direction: row;

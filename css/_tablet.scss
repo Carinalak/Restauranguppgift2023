@@ -14,7 +14,6 @@
     width: 8.3vw;
     position:fixed;
     height: 100vh;
-
   }
   .page {
     min-height: 100vh;
@@ -50,8 +49,7 @@
     display: grid;
     grid-template-columns:repeat(11, 1fr);
     gap: 16px;
-    min-width: 100vw;
-  
+    max-width: 100vw; 
   }
      
   .drizzletext {
@@ -62,7 +60,26 @@
     grid-row-start: 1;
     grid-row-end: 2; */
     width: 100px;
-   
+    position: relative;
+    left: 100px;
+  }
+  .drizzle {
+    font-size: 2.4rem;
+    position: absolute;
+    top: 6px;
+    right: 5px;
+  }
+  .tahini {
+    font-size: 4.3rem;
+    position: absolute;
+    top: 24px;
+    right: 5px;
+  }
+  .chickpeas {
+    font-size: 2.4rem;
+    position: absolute;
+    top: 61px;
+    right: 11px;
   }
   .textbox1 {
     grid-column: 5 / span 7;
@@ -74,10 +91,12 @@
     grid-row-end: 2;*/
     padding: 20px;
     width: 280px;
+    font-size: 1.5rem;
   }
   .lettucepic {
     grid-column: 1 / span 5;
     grid-row: 2 / span 1;
+    margin-bottom: 50px;
    /* grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 2;
@@ -101,15 +120,18 @@
     font-size: 1.2rem;
     height: 250px;
     width: 250px;
-    padding: 30px;
+    padding: 25px;
+    font-size: 1.3rem;
   }
 
 .explore {
   border: 1px solid red;
   position: relative;
-  top: 50px;
+  top: 40px;
   width: 250px;
   text-align: start;
+ 
+
   }
 
 /*-------------------PAGE 2 --------------------*/
@@ -117,6 +139,7 @@
 
 
 .page2 {
+ 
   border-left: 16px solid #fff236;
   border-right: 16px solid #fff236;
   display: grid;
