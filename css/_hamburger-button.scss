@@ -11,6 +11,7 @@ button {
   pointer-events: none;
 }
 button span {
+ 
   display: block;
   width: 25px;
   height: 3px;
@@ -77,9 +78,23 @@ ul {
 }
 
 /*--------- desktop only ------- */
-@media screen and (min-width: 800px){
 
-  .hamburger-lines {
+@media screen and (min-width: 800px){
+ button {
+    span {
+    position: relative;
+    left: 0;
+    transition: left 0.3s ease-in-out;
+
+  }
+}
+button:hover {
+  span{
+    left: 10px;
+  }
+}
+
+ /* .hamburger-lines {
     position: absolute;
 
     .hamburger-line1 {
@@ -106,5 +121,5 @@ ul {
           left:10px;
         }
     }
-  }
+  }*/
 }
