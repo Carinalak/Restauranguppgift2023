@@ -75,3 +75,36 @@ ul {
   justify-content: space-evenly;
   text-align: center;
 }
+
+/*--------- desktop only ------- */
+@media screen and (min-width: 800px){
+
+  .hamburger-lines {
+    position: absolute;
+
+    .hamburger-line1 {
+      position: relative;
+      left: 0px;
+      transition: left 5s cubic-bezier(0.075, 0.82, 0.165, 1);
+        &:hover {
+          left:10px;
+        }
+    }
+    .hamburger-line2 {
+      position: relative;
+      left: 0px;
+      transition: left 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+        &:hover {
+          left:10px;
+        }
+    }
+    .hamburger-line3 {
+      position: relative;
+      left: 0px;
+      transition: left 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+        &:hover {
+          left:10px;
+        }
+    }
+  }
+}
