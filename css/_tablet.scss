@@ -174,18 +174,11 @@
 
     .page3 {
       border-left: 16px solid #ffffff;
-      display: grid;
-      grid-template-columns:repeat(7, 1fr);
-      gap: 16px;
-   
-      
+      flex-direction: row; 
+      justify-content: space-around;
     }
-   
-    .bookingform {
-      grid-column: 1 / span 3;
-    }
-  .contact-info  .bg-image {
-    grid-column: 4 / span 3;
 
-  }
+
+
+
 }
