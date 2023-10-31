@@ -75,6 +75,7 @@
   grid-template-columns: repeat(11 / 1fr);
 }
 .img1 { 
+  
   grid-column: 1 / span 3;
 }
 .img2 {
@@ -87,7 +88,13 @@
   grid-column: 1 / span 11;
   
 }
-
+.foodname {
+  margin-right: 50px;
+  width: 800px;
+}
+.food-description {
+  width: 400px;
+}
 
 
 
