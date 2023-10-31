@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
     background-color: #fff236;
     color: #00ff38;
@@ -147,15 +151,14 @@ body {
   }
   
   .explore {
-
     font-family: 'roboto condensed';
     color: #000000;
     font-weight: bold;
     padding-top: 4px;
     width: 300px;
     text-align: end;
-    
   }
+
  /*-----------------------------------------------------------------------------------------------------
 ----------------------------------------------- PAGE 2 ------------------------------------------------
 -------------------------------------------------------------------------------------------------------*/
@@ -164,23 +167,17 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-
   padding-top: 30px;
   padding-bottom: 20px;
   width: 100%;
   border: 1px solid white;
   display: grid;
-
-
-  
-  
   }
   .foodmenu {
     color: #000000;
     display: grid;
     row-gap: 4px;
     margin-right: 16px;
-  
   }
   .img3a {
     display: none;
@@ -222,7 +219,6 @@ body {
     left: 89%;
     padding-right: 6px;
   }
-  
   .menu-item-popular,
   .menu-item-vegan,
   .menu-item-new {
@@ -288,10 +284,8 @@ body {
     display: grid;
     gap: 20px;
     margin-left: 16px;
-    width: 300px;
+    width: 250px;
     font-size: 1.8rem;
-    
-  
   }
   .booking {
     position: relative;
@@ -304,7 +298,6 @@ body {
     position: relative;
     left: 0px;
     text-transform: uppercase;
-  
   }
   .book2 {
     grid-column-start: 2;
@@ -318,7 +311,6 @@ body {
     border-radius: 10px;
     font-size: 1.2rem;
   }
-  
   .formbuttons {
     display: flex;
     flex-direction: row;
@@ -327,7 +319,6 @@ body {
     margin-top: 5px;
     margin-bottom: 5px;
   }
-  
   .cancel-button {
     background-color: #aa75ff;
     border-radius: 10px;
@@ -342,17 +333,17 @@ body {
     padding-right: 30px;
   }
   
-  
-  .contact-info {
+
+  .contact-info-box {
+    position: absolute;
+    top: 100px;
+    border: 1px solid red;
+  }
+  .contact-info .bg-image {
     min-height: 300px;
     min-width: 267px;
     position: relative;
-   
-  }
-  
-  .contact-info .bg-image {
-    position: absolute;
-    top: 0;
+    top: 100px;
     left: 0;
     width: 100%;
     height: 100%;
@@ -362,7 +353,6 @@ body {
     filter: blur(2px);
     
   }
-  
   .image-text {
     color: rgb(67, 190, 231);
     position: absolute;
@@ -370,7 +360,6 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 1.6rem;
-    
     text-transform: none;
     text-shadow: #000000 2px 2px;
     font-family:'roboto condensed';
@@ -432,7 +421,7 @@ body {
     position: fixed;
     z-index: 10;
     bottom: 0;
-    width: 100%;
+    width: 100vw;
     align-items: center;
     padding-inline: 16px;
     padding-block: 16px;

@@ -28,6 +28,9 @@ button span {
   z-index: 2;
   opacity: 0;
 }
+.menu:hover {
+  border: 3px solid red;
+}
 input:checked + .menu button span {
   position: absolute;
   transition: all 0.3s ease-in-out;
