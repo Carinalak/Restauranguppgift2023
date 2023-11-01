@@ -1,5 +1,8 @@
 @import "vendor/normalize";
 @import "hamburger-button";
 @import "mobile";
+
+@media screen and (min-width: 640px) {
 @import "tablet";
+}
 @import "desktop";
