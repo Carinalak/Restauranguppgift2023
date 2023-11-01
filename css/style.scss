@@ -1,8 +1,10 @@
 @import "vendor/normalize";
+@import "_link-colors";
 @import "hamburger-button";
 @import "mobile";
-@import "link-colors";
+
 @media screen and (min-width: 640px) {
 @import "tablet";
 }
+
 @import "desktop";
