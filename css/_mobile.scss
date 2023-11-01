@@ -194,7 +194,7 @@ body {
     border: 2px solid #000000;
     padding: 3px;
     /*padding-right: 300px;*/
-    height: 30px;
+    height: 40px;
     width: 95%;
     display: flex;
     align-items: center;
@@ -216,11 +216,9 @@ body {
     font-size: 1rem;
     font-family:'roboto condensed', 'sans-serif';
     line-height: 90%;
-   
     position: absolute;
     left: 40%;
-    width: 45%;
-    padding-left: 6px;
+    padding-left: 4px;
   }
   .price {
     
@@ -431,7 +429,7 @@ body {
     color: #ffffff;
     font-size: 1rem;
     text-transform: none;
-    background-color: #aa75ff;
+    background-color: #00ff38;
     position: fixed;
     z-index: 10;
     bottom: 0;
