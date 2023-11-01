@@ -14,18 +14,24 @@ body {
     outline: 5px solid red;
   }
   */
+  
+
+  
+
   .menutitle {
     font-family: 'Jockey One', sans-serif;
     color: #ffffff;
     font-weight: lighter;
     position: absolute;
     top: 0;
-    left: 90px;
+    left: 25%;
     padding: 0px;
     margin-top: 12px;
     text-transform: uppercase;
     letter-spacing: 0.4em;
     font-size: 2rem;
+    position: absolute;
+    
   }
   .drizzle {
     color: #aa75ff;
@@ -58,13 +64,15 @@ body {
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;*/
-    height: 40px;
+    height: 60px;
     background-color: #000000;
     position: fixed;
     width: 100vw;
     padding-bottom: 4px; 
     z-index: 50;
     border-bottom: 4px solid #fff236;
+    
+
   }
 
 /*-----------------------------------------------------------------------------------------------------
@@ -151,10 +159,7 @@ body {
     border-bottom: 0px;
     border-top: 0px;
   }
-  a {
-    text-decoration: none;
-    color: #000000;
-  }
+  
   
   .explore {
     font-family: 'roboto condensed';
@@ -162,7 +167,7 @@ body {
     font-weight: bold;
     padding-top: 4px;
     width: 300px;
-    text-align: end;
+    text-align:start;
     padding-right: 20px;
     padding-top: 10px;
   }
@@ -174,16 +179,14 @@ body {
   background-color: #fff236;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
+  
   padding-top: 10px;
   padding-bottom: 20px;
   width: 100%;
-  
-  
   }
   .foodmenu {
     color: #000000;
-    
   }
   .img3a {
     display: none;
@@ -193,7 +196,6 @@ body {
     background-color: #ffffff;
     border: 2px solid #000000;
     padding: 3px;
-    /*padding-right: 300px;*/
     height: 45px;
     width: 95%;
     display: flex;
@@ -426,10 +428,11 @@ body {
     color: #ffffff;
     font-size: 1rem;
     text-transform: none;
-    background-color: red;
+    background-color: #aa75ff;
     position: fixed;
-    z-index: 10;
+    z-index: 60;
     bottom: 0;
+    right: 0;
     width: 100vw;
     align-items: center;
     padding-inline: 16px;

@@ -17,7 +17,7 @@
 
   .menutitle {
     top: 50px;
-    left: 12px;
+    left: 15px;
     max-width: 30px;
     word-break: break-all;
     text-align: center;
@@ -111,9 +111,7 @@
     grid-row-end: 3;*/
     font-size: 1.2rem;
     height: 220px;
-    width: 300px;
-
-    
+    width: 300px; 
   }
 
 .explore {
@@ -121,7 +119,7 @@
   bottom: 5px;
   padding-right: 5px;
   width: 250px;
-  text-align: end;
+  
   
   
   }
@@ -133,12 +131,11 @@
 
 
 .page2 {
- 
   border-left: 16px solid #fff236;
   border-right: 16px solid #fff236;
   display: grid;
-  grid-template-columns:repeat(7, 1fr);
-  gap: 16px;
+  /*grid-template-columns:repeat(7, 1fr);
+  gap: 16px;*/
   max-width: 100vw;
   display: flex;
   flex-direction: column;
@@ -148,9 +145,11 @@
 
 .foodpics {
   margin-top: 30px;
+  display: flex;
+  justify-content: center;
 }
 .img1 { 
-  grid-column: 2 / span 1;
+  grid-column: 2 / span 2;
   width: 185px;
   height: 232px;
 }
@@ -174,7 +173,6 @@
 }
 .dish {
   width: 17%;
- 
 }
 .menu-item {
   margin-left: 1px;

@@ -11,7 +11,6 @@ button {
   pointer-events: none;
 }
 button span {
- 
   display: block;
   width: 25px;
   height: 3px;
@@ -28,9 +27,14 @@ button span {
   z-index: 2;
   opacity: 0;
 }
+
+/*
 .menu:hover {
   border: 3px solid red;
 }
+
+*/
+
 input:checked + .menu button span {
   position: absolute;
   transition: all 0.3s ease-in-out;
@@ -79,50 +83,4 @@ ul {
   justify-content: space-evenly;
   text-align: center;
 }
-
-/*--------- desktop only ------- */
-
-@media screen and (min-width: 800px){
- button {
-    span {
-    position: relative;
-    left: 0;
-    transition: left 0.3s ease-in-out;
-
-  }
-}
-button:hover {
-  span{
-    left: 10px;
-  }
-}
-
- /* .hamburger-lines {
-    position: absolute;
-
-    .hamburger-line1 {
-      position: relative;
-      left: 0px;
-      transition: left 5s cubic-bezier(0.075, 0.82, 0.165, 1);
-        &:hover {
-          left:10px;
-        }
-    }
-    .hamburger-line2 {
-      position: relative;
-      left: 0px;
-      transition: left 2s cubic-bezier(0.075, 0.82, 0.165, 1);
-        &:hover {
-          left:10px;
-        }
-    }
-    .hamburger-line3 {
-      position: relative;
-      left: 0px;
-      transition: left 2s cubic-bezier(0.075, 0.82, 0.165, 1);
-        &:hover {
-          left:10px;
-        }
-    }
-  }*/
-}
+/* ------- Desktop only --------------*/

@@ -1,0 +1,24 @@
+a.menu-link:link { 
+    color:#ffffff;
+  }
+  a.menu-link:link { 
+    text-decoration: none;
+  }
+  a.menu-link:visited {
+    color:#ffffff;
+  }  
+  a.menu-link:visited {
+    text-decoration: none;
+  }  
+  a.explore-link:link { 
+    color:black;
+  }
+  a.explore-link:link { 
+    text-decoration: none;
+  }
+  a.explore-link:visited { 
+    color:black;
+  }
+  a.explore-link:visited { 
+    text-decoration: none;
+  }
