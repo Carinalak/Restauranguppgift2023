@@ -1,38 +1,39 @@
+/* -------------------- MENU-LINKS ----------------------*/
 a.menu-link:link { 
-    color:#ffffff;
-  }
-  a.menu-link:link { 
-    text-decoration: none;
-  }
-  a.menu-link:visited {
-    color:#ffffff;
-  }  
-  a.menu-link:visited {
-    text-decoration: none;
-  }  
-  a.explore-link:link { 
-    color:black;
-  }
-  a.explore-link:link { 
-    text-decoration: none;
-  }
-  a.explore-link:visited { 
-    color:black;
-  }
-  a.explore-link:visited { 
-    text-decoration: none;
-  }
-
-
-  a.contact-link:link {
-    color: rgb(67, 190, 231);
-  }
-  a.contact-link:link {
-    text-decoration: none;
-  }
-  a.contact-link:visited {
-    color: rgb(67, 190, 231);
-  }
-  a.contact-link:visited {
-    text-decoration: none;
-  }
+  color:#ffffff;
+}
+a.menu-link:link { 
+  text-decoration: none;
+}
+a.menu-link:visited {
+  color:#ffffff;
+}  
+a.menu-link:visited {
+  text-decoration: none;
+}  
+/* -------------------- EXPLORE-TEXT PAGE 1 --------------*/
+a.explore-link:link { 
+  color:black;
+}
+a.explore-link:link { 
+  text-decoration: none;
+}
+a.explore-link:visited { 
+  color:black;
+}
+a.explore-link:visited { 
+  text-decoration: none;
+ }
+ /* ----------------- CONTACT PAGE 3 ---------------------*/
+a.contact-link:link {
+  color: rgb(67, 190, 231);
+}
+a.contact-link:link {
+  text-decoration: none;
+}
+a.contact-link:visited {
+  color: rgb(67, 190, 231);
+}
+a.contact-link:visited {
+  text-decoration: none;
+}
