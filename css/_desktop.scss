@@ -1,4 +1,4 @@
-@media screen and (min-width: 800px){
+
     header {
        width: 8.3vw;
        /* width: 50px;*/
@@ -44,6 +44,7 @@
 -------------------------------------------------------------------------------------------------------*/
 .page1 {    
     grid-template-columns:repeat(11, 1fr);
+ 
   }
   .drizzletext {
     grid-column: 1 / span 4;
@@ -99,9 +100,9 @@
 .page2 {
   display: grid;
   grid-template-columns: repeat(11 / 1fr);
+  
 }
 .img1 { 
-  
   grid-column: 1 / span 3;
 }
 .img2 {
@@ -137,14 +138,10 @@
 
 .page3 {
   grid-template-columns: repeat(11 / 1fr);
-  
 }
-
 .bookingform {
   grid-column: 1 / span 5;
 }
 .contact-info  .bg-image {
 grid-column: 6 / span 6;
-
-}
 }

@@ -127,30 +127,25 @@
 /*-----------------------------------------------------------------------------------------------------
 ----------------------------------------------- PAGE 2 ------------------------------------------------
 -------------------------------------------------------------------------------------------------------*/
-
-
-
 .page2 {
   border-left: 16px solid #fff236;
   border-right: 16px solid #fff236;
   display: grid;
-  /*grid-template-columns:repeat(7, 1fr);
-  gap: 16px;*/
+  grid-template-columns:repeat(7, 1fr);
+  gap: 16px;
   max-width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 
 .foodpics {
   margin-top: 30px;
- 
 }
 .img1 { 
   grid-column: 2 / span 2;
-  width: 185px;
-  height: 232px;
+  width: 124px;
+  height: 155px;
 }
 .img2 {
   grid-column: 3 / span 2;
@@ -165,6 +160,7 @@
 .foodmenu {
   grid-column: 1 / span 7;
   margin-bottom: 50px;
+  
 }
 .foodname {
   margin-right: 50px;
@@ -179,7 +175,6 @@
 .food-description {
   left: 38%;
 }
-  
 .price {
   right: 90px;
   padding-right: 6px;
@@ -195,4 +190,22 @@
       flex-direction: row; 
       justify-content: space-around;
     }
+
+
+/*-----------------------------------------------------------------------------------------------------
+----------------------------------------------- COOKIES ------------------------------------------------
+-------------------------------------------------------------------------------------------------------*/
+
+.cookies {
+  padding-left: 20%;
+}
+.cookie-buttons {
+  left: 43%;
+}
+.decline-button{
+  margin-right: 10px;
+}
+.accept-button {
+  margin-left: 5px;
+}    
 
