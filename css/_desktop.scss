@@ -14,12 +14,10 @@
         min-height: 100vh;
         outline: 5px solid red;
     }
-
     .menu span {
       transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
       
     }
- 
     input.hamburger:not(:checked):hover + .menu {
       span:nth-child(1) {
         position: relative;
@@ -64,8 +62,8 @@
     grid-row-start: 1;
     grid-row-end: 2;*/
     padding: 20px;
-    width: 280px;
-    font-size: 1.5rem;
+    width: 400px;
+    font-size: 1.4rem;
   }
   .lettucepic {
     grid-column: 1 / span 5;
@@ -91,6 +89,8 @@
   .textbox2 {
     grid-column: 6 / span 6;
     grid-row: 2 / span 1;
+    font-size: 1.3rem;
+    width: 350px;
   }
 
 /*-----------------------------------------------------------------------------------------------------
