@@ -7,7 +7,7 @@ body {
     font-family: 'Jockey One', sans-serif;
     font-size: 1.2rem;
   }
-  .menutitle {
+  .menu-title {
     font-family: 'Jockey One', sans-serif;
     color: #ffffff;
     font-weight: lighter;
@@ -33,7 +33,7 @@ body {
 /*-----------------------------------------------------------------------------------------------------
 ----------------------------------------------- PAGE 1 ------------------------------------------------
 -------------------------------------------------------------------------------------------------------*/
-.page1{
+.page-1{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -43,7 +43,7 @@ body {
   width: 100%;
   display: grid;
 }
-  .drizzletext {
+  .drizzle-text {
     position: relative;
     height: 50px;
     width: 330px;
@@ -77,11 +77,11 @@ body {
     right: 9px;
     z-index: 1;
   }
-  .textbox1 {
+  .textbox-1 {
     padding: 5px;
     width: 300px;
   }
-  .lettucepic {
+  .lettuce-pic {
     position: relative;
     background-image: url('../img/lettuce.jpg');
     background-size: cover;
@@ -99,7 +99,7 @@ body {
       visibility: hidden;
     }
   }
-  .textbox2 {
+  .textbox-2 {
     padding: 8px;
     width: 300px;
     z-index: 1;
@@ -114,7 +114,6 @@ body {
     font-family: 'roboto condensed';
     color: #000000;
     font-weight: bold;
-    padding-top: 4px;
     width: 300px;
     text-align:start;
     padding-right: 20px;
@@ -123,7 +122,7 @@ body {
  /*-----------------------------------------------------------------------------------------------------
 ----------------------------------------------- PAGE 2 ------------------------------------------------
 -------------------------------------------------------------------------------------------------------*/
-  .page2 {
+  .page-2 {
   background-color: #fff236;
   display: flex;
   flex-direction: column;
@@ -132,13 +131,13 @@ body {
   padding-bottom: 20px;
   width: 100%;
   }
-  .foodmenu {
+  .food-menu {
     color: #000000;
   }
-  .img3a {
+  .img-3a {
     display: none;
   }
-  .foodname {
+  .food-name {
     margin-left: 16px;
     background-color: #ffffff;
     border: 2px solid #000000;
@@ -208,7 +207,7 @@ body {
       transform: rotate(3deg);
     }
   }
-  .foodpics {
+  .food-pics {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -217,7 +216,7 @@ body {
  /*-----------------------------------------------------------------------------------------------------
 ----------------------------------------------- PAGE 3 ------------------------------------------------
 -------------------------------------------------------------------------------------------------------*/
-  .page3 {
+  .page-3 {
     background-color: #00ff38;
     color: #000000;
     display: flex;
@@ -227,10 +226,10 @@ body {
     text-transform: uppercase;
     padding-bottom: 30px;
   }
-  .bookingtitle {
+  .booking-title {
     text-align: center;
   }
-  .bookingform {
+  .booking-form {
     display: grid;
     gap: 10px;
     margin-left: 16px;
@@ -240,7 +239,7 @@ body {
   .booking {
     position: relative;
   }
-  .book1 {
+  .book-1 {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
@@ -249,7 +248,7 @@ body {
     left: 0px;
     text-transform: uppercase;
   }
-  .book2 {
+  .book-2 {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -261,7 +260,7 @@ body {
     border-radius: 10px;
     font-size: 1.2rem;
   }
-  .formbuttons {
+  .form-buttons {
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
@@ -313,37 +312,37 @@ body {
     row-gap: 3px;
     column-gap: 0;
   }
-.contact-phone1 {
+.contact-phone-1 {
   grid-column: 1 / span 1;
   grid-row: 1 / span 1;
   position: absolute;
   right: 12px;
 }
-.contact-phone2 {
+.contact-phone-2 {
   grid-column: 2 / span 4;
   grid-row: 1 / span 1;
 }
-.contact-mail1 {
+.contact-mail-1 {
   grid-column: 1 / span 1;
   grid-row: 2 / span 1;
   position: absolute;
   right: 12px;  
 }
-.contact-mail2 {
+.contact-mail-2 {
   grid-column: 2 / span 4;
   grid-row: 2 / span 1;
 }
-.contact-address1a {
+.contact-address-1a {
   grid-column: 1 / span 1;
   grid-row: 3 / span 2;
   position: absolute;
   right: 12px;
 }
-.contact-address1b {
+.contact-address-1b {
   grid-column: 2 / span 4;
   grid-row: 3 / span 1;
 }
-.contact-address2 {
+.contact-address-2 {
   grid-column: 2 / span 4;
   grid-row: 4 / span 1;
 }
