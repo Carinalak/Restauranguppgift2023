@@ -1,7 +1,12 @@
-Det här projektet gjorde jag som min första inlämningsuppgift i HTML/CSS på Medieinstitutet hösten 2023.
-Jag testar att föra över den till mitt eget konto på GitHub.
+# Tough Cookie  
 
-Nu testar jag engång till.
+Det här projektet gjorde jag som min första inlämningsuppgift i HTML/CSS på Medieinstitutet hösten 2023.
+Jag har klonat den till mitt eget Git Hub konto.  
+
+Jag har använt HTML och CSS i denna uppgift.  
+
+Vi fick en färdig design av vår lärare Jenni och skulle göra webbsidan exakt efter designen.
+
 
 
 
