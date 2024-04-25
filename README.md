@@ -1,4 +1,5 @@
 Det här projektet gjorde jag som min första inlämningsuppgift i HTML/CSS på Medieinstitutet hösten 2023.
+Jag testar att föra över den till mitt eget konto på GitHub.
 
 
 
